@@ -1,0 +1,43 @@
+.page:nth-child(1){
+    perspective: 200px;
+    background:#22B573;/*page设置为舞台元素*/
+}
+.stage{
+    stransform-style:preserve-3d;/*stage设置为容器*/
+}
+#hell{
+    width:600px;
+    height:100px;
+    font-size:60px;
+    margin: auto;
+    color:#EE0000;
+    text-align:center;
+    -webkit-animation:move 2s;
+    -o-animation:move 2s;
+    animation:move 2s forwards;
+}
+@keyframes move{
+    from{
+        transform:translate(0px,0px) rotateY(0deg) rotateX(0deg) translateZ(-800px);//设置动画
+
+        }
+    to{
+        transform: translate(0px,200px) rotateY(0deg) rotateX(0deg) translateZ(00px);
+        color:white;;
+    }
+}
+.page_a{
+    position: relative;
+    top:400px;
+}
+.page_a a {
+    display: block;
+    height: 36px;
+    width: 32px;
+    margin: 0 auto;
+    background: url(../image/down.png) repeat;
+}
+
+
+
+

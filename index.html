@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>Mynote</title>
+    <link rel="shortcut icon" href="image/one.ico" />
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/01.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/fullpage/jquery-1.8.3.min.js"></script>
+    <script src="js/fullpage/jquery.fullPage.min.js"></script>
+    <script src="js/move.js"></script>
+</head>
+
+<body>
+<section id="wrap">
+    <section class="section section1">
+        <div class="stage">
+            <p id="hell">Hellow World</p>
+        </div>
+        <div class="page_a">
+            <a href="#page2"></a>
+        </div>
+    </section>
+    <section class="section section2">
+        <div id="dance">
+            <div class="dance_1">
+                <div data-menuanchor="page1" class="page_again page_again_1"><a href="#page5">联系方式</a></div>
+                <div class="page_again"></div>
+                <div data-menuanchor="page3" class="page_again page_again_1" ><a href="#page3">个人简介</a></div>
+                <div class="page_again"></div>
+                <div data-menuanchor="page4" class="page_again page_again_1"><a href="#page4">掌握技能</a></div>
+                <div class="page_again"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section section3">
+        <div id="page3_nav">
+            <a class="github" data-title="点击进入" href="https://github.com/gzwgq222/New-date" hidefocue="true"></a>
+            <img src="image/myself.jpg" alt="myself"/>
+            <a href="#" class="blog" data-title="点击进入" hidefocue="true"></a>
+        </div>
+        <side class="myMessage">
+            <ul >
+                <li><span>姓名</span> | 龚强</li>
+                <li><span>现居住地</span> | 湖南-长沙</li>
+                <li><span>学历</span> | 本科</li>
+                <li><span>github</span> |<a href="https://github.com/gzwgq222/New-date">点击进入</a></li>
+                <li><span>联系方式</span> | 18174359233</li>
+                <li><span>邮箱</span> | 445722157@qq.com</li>
+            </ul>
+        </side>
+        <article class="move-text">
+                <p>我是一个性格开朗，做事认真的人。<br>我喜欢研究所碰到的各种技术，不给自己设边界，有 Geek 精神。<br>我有时间概念，能在约定时间内完成任务。<br>常浏览于Github、CSDN、博客园、知乎等技术论坛。<br>酷爱前端技术。<br/>自学能力强。
+                <p>有半年前端开发经验，熟练 HTML、CSS、Javascript、jQuery、bootstrap框架，曾开发过 jQuery 插件。<br>能熟练开发符合 W3C 标准的页面,能把设计稿高效的还原成页面，实现页面的动态交互。<br>对Web语义化等有一定的理解。<br>
+                    有良好的编码习惯。</p>
+        </article>
+    </section>
+    <section class="section section4">
+        <div class="skill">
+            <ul>
+                <li title="能熟练使用div、css快速进行页面布局，高效的把设计稿还原成页面，实现浏览器的兼容性.<br>对css3 html5有一定的了解。对tag语义化及结构与行为分离有较深的理解。"><h4>HTML&CSS</h4></li>
+                <li title="原生js可实现一般的表单验证及网页特效(二级下拉菜单、图片轮播、选项卡等),能使用ajax与服务器进行交换数据，能熟练的操控dom"><h4>Javascript</h4></li>
+                <li title="可以简便、快捷的完成网页特效，数据交互等需求，在项目中曾写过固定导航条的插件"><h4>jQuery</h4></li>
+                <li title="能较好的运用ajax从服务器获取数据输入到页面，对ajax异步、线性、缓存等问题有一定的理解"><h4>ajax</h4></li>
+                <li title="熟练使用bootstrap框架，能灵活的运用bootstrap完成pc端or移动端页面的布局"><h4>bootstrap</h4></li>
+            </ul>
+        </div>
+        <div class="project">
+            <div class="project_1">项目经验</div>
+            <p>一款超轻量级的 jQuery 插件。它可以让原本不是在顶部的导航条，在滚动到它的位置时固定在顶部。<a href="https://gzwgq222.github.io/fixed/">fxPosition插件入口:</a>
+                <br>
+                <a href="https://cdn.rawgit.com/gzwgq222/games/127614d9/%E9%94%85%E6%89%93%E7%81%B0%E5%A4%AA%E7%8B%BC%E5%AE%8C%E6%95%B4%E7%89%88.html">Game:</a>
+                <br>
+                <a href="https://cdn.rawgit.com/gzwgq222/username/f5102b8a/renderings.html">small test:</a></p>
+        </div>
+        <div class="tab">
+            <div class="tab_menu">
+                <ul>
+                    <li class="selected">HTML&CSS</li>
+                    <li>Javascript</li>
+                    <li>jQuery</li>
+                    <li>ajax</li>
+                    <li>bootstrap</li>
+                </ul>
+            </div>
+            <div class="tab_box">
+                <div>能熟练使用div、css快速进行页面布局，高效的把设计稿还原成页面，实现浏览器的兼容性.<br>对css3 html5有一定的了解。对tag语义化及结构与行为分离有较深的理解。</div>
+                <div class="hide">原生js可实现一般的表单验证及网页特效(二级下拉菜单、图片轮播、选项卡等),能使用ajax与服务器进行交换数据，能熟练的操控dom</div>
+                <div class="hide">可以简便、快捷的完成网页特效，数据交互等需求，在项目中曾写过固定导航条的插件</div>
+                <div class="hide">能较好的运用ajax从服务器获取数据输入到页面，对ajax异步、线性、缓存等问题有一定的理解</div>
+                <div class="hide">熟练使用bootstrap框架，能灵活的运用bootstrap完成pc端or移动端页面的布局</div>
+            </div>
+        </div>
+
+    </section>
+    <section class="section section5">
+        <footer>
+            <p>快把我收到碗里吧</p>
+            <p>Tel:18174359233</p>
+            <p>445722156@qq.com</p>
+        </footer>
+
+    </section>
+</section>
+</body>
+</html>
